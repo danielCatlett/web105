@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Images</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        img {
+            width: 20%;
+            height: auto;
+            padding: 1em;
+        }
+        
+        body {
+            background: black;
+            font-family: sans-serif;
+            color: greenyellow;
+        }
+        
+        .third {
+            float: left;
+            max-width: 33%;
+            height: auto;
+            overflow: auto;
+            border: 1px solid yellow;
+        }
+        
+        h1,
+        h2 {
+            text-align: center;
+        }
+        
+        .left {
+            float: left;
+            padding: 1em;
+        }
+        
+        .right {
+            float: right;
+            padding: 1em;
+        }
+        
+        .center {
+            display: block;
+            margin: 0 auto;
+        }
+        
+        header,
+        .container {
+            clear: both;
+            max-width: 960px;
+            margin: 5px auto;
+            padding: 1em;
+            border-radius: 15px;
+            border: 3px solid rgb(70, 71, 43);
+            overflow: auto;
+        }
+        
+        #mybackground
+        {
+            height: 800px;
+            background-image: url(shamrock.png);
+            background-size: 100px;
+            background-repeat: repeat-y;
+        }
+        
+        .whatever
+        {
+            max-width: 80%;
+            float: right;
+            padding: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Working with images</h1></header>
+    <div class="container" id="mybackground">
+        <h2>background</h2>
+    </div>
+    <div class="container">
+        <h2>float left</h2> <img src="shamrock.png" alt="shamrock" class="left"> </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dolores pariatur omnis modi odio enim culpa, error ex, impedit accusamus placeat debitis quos voluptate eligendi aperiam natus cupiditate voluptates ullam?</p>
+    <div class="container">
+        <h2>float right</h2> 
+        <img src="shamrock.png" alt="shamrock" class="right">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus dolore dignissimos placeat laboriosam tenetur iure fugiat laudantium nihil tempore illo autem adipisci ratione odit, in impedit, asperiores alias aperiam molestias.</p>
+    </div>
+    <div class="container">
+        <h2>Thirds</h2>
+        <div class="third">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, tempora. Nihil, blanditiis impedit minima, sint, qui laudantium deleniti nesciunt ipsum rem quam exercitationem tenetur fugit voluptatibus eveniet fuga accusamus hic?</p>
+        </div>
+        <div class="third"><img src="shamrock.png" alt="shamrock" class="center" style="width: 60%"></div>
+        <div class="third">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem sed natus unde minus iste nemo dolorum fugiat optio, iusto velit, eligendi maxime nesciunt consectetur accusantium eius recusandae cumque aut ut.</p>
+            <p style = "clear:both;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe laudantium officiis iure deserunt nam, provident assumenda non dolorem magni veniam ut expedita itaque neque natus, libero deleniti modi quam quidem.</p>
+        </div>
+    </div>
+    <div class="container">
+        <h2>center</h2> <img src="shamrock.png" alt="shamrock" class="center"> 
+        
+    </div>
+</body>
+
+</html>

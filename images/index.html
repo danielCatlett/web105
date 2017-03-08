@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Images</title>
+</head>
+<style>
+    body 
+    {
+        background-image: url(master-sword.png);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: contain;
+    }
+    .container 
+    {
+        max-width: 960px;
+        min-height: 400px;
+        margin: 15px auto;
+        padding: 15px;
+        text-align: center;
+        color: white;
+    }
+    #back1
+    {
+        background-image: url('candy.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        max-height: 100px;
+    }
+    #back2
+    {
+        background-image: url('eggs.jpg');
+        background-repeat: no-repeat;
+        background-position: left;
+        max-height: 100px;
+    }
+    #back3
+    {
+        background-image: url('fall.jpg');
+        background-repeat: no-repeat;
+        background-position: right;
+        max-height: 100px;
+    }
+    #back4
+    {
+        background-image: url('flowers.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        max-height: 100px;
+    }
+    #backplain
+    {
+        background: rgba(0, 0, 0, .8)
+    }
+</style>
+<body>
+    <div class="container" id="back1">
+        <p>Background to the page picked because of Breath of the Wild hype. The rest were first on Pixabay</p>
+    </div>
+    <div class="container" id="back2">
+        <p>This is an allign left</p>
+    </div>
+    <div class="container" id="back3">
+        <p>Here is an allign right</p>
+    </div>
+    <div class="container" id="back4">
+        <p>Here is another allign center for good measure</p>
+    </div>
+    <div class="container" id="backplain">
+        <img src="hong-kong.jpg" alt="Time ellapsed picture of Hong Kong" style="float:left;">
+        <p>Here is a float left</p>
+    </div>
+    <div class="container" id="backplain">
+        <img src="mountain.jpg" alt="Mountain landscape" style="float:right;">
+        <p>Here is a float right</p>
+    </div>
+    <div class="container" id="backplain">
+        <img src="swan.gif" alt="A swan" style="float:left;">
+        <p>Here are the last couple of images needed, with alternating floats</p>
+    </div>
+    <div class="container" id="backplain">
+        <img src="toddler.jpg" alt="Toddler playing in the water" style="float:right;">
+    </div>
+    <div class="container" id="backplain">
+        <img src="women.jpg" alt="A picture of a women" style="float:left;">
+    </div>
+</body>
+</html>

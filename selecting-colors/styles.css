@@ -1,0 +1,97 @@
+header
+{
+    font-weight: 800;
+    text-align: center;
+    background: white;
+    max-width: 960px;
+}
+
+header h1
+{
+    color: rgb(13, 49, 124);
+}
+
+body
+{
+    font-family: "Comic Sans MS";
+    background: rgb(13, 49, 124);
+}
+
+.container
+{
+    max-width: 960px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 5px solid rgb(98, 24, 10);
+    border-radius: 42.42px;
+    background: white;
+}
+
+h1, h2, h3, h4
+{
+    color: rgb(98, 24, 10);
+    padding: 10px;
+    font-family: "Comic Sans MS";
+}
+
+h2
+{
+    color: rgb(13, 49, 124);
+}
+
+p
+{
+    color: rgb(98, 24, 10);
+    padding: 10px 20px;
+}
+
+.splash
+{
+    width: 15%;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+
+#rust
+{
+    background: rgb(98, 24, 10);
+}
+
+#green
+{
+    background: rgb(144, 188, 57);
+}
+
+#red
+{
+    background: rgb(175, 57, 35);
+}
+
+#navy
+{
+    background: rgb(13, 49, 124);
+}
+
+#blue
+{
+    background: rgb(38, 108, 251);
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(175, 57, 35);
+}
+
+a:hover
+{
+    text-decoration: none;
+    color: rgb(144, 188, 57);
+}
+
+a:visited
+{
+    text-decoration: none;
+    color: rgb(38, 108, 251);
+}

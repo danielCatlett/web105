@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meri's Practice</title>
+    <!-- comments are done in brackets with ! and -- -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <style>
+        body {
+            background-color: rgb(59, 55, 52);
+            color: rgb(59, 55, 52);
+            font-family: arial;
+        }
+        
+        h1,
+        h2,
+        h3 {
+            font-family: sans-serif;
+            color: rgb(70, 89, 65);
+            text-align: center;
+        }
+        /* classes start with a period when in styles */
+        
+        .container,
+        header,
+        footer {
+            max-width: 960px;
+            margin: 1em auto;
+            padding: 1em;
+            background-color: rgb(255, 237, 220);
+            min-height: 100px;
+            border: .5px solid rgb(239, 107, 88);
+            border-radius: 15px;
+        }
+        
+        a {
+            color: rgb(70, 89, 65);
+            font-size: 1.3em;
+            
+        }
+        
+        a:visited {
+            color: rgb(180, 208, 114);
+        }
+        
+        a:hover {
+            text-decoration: underline;
+            color: rgb(239, 107, 88);
+        }
+        
+        header {
+            text-align: center;
+        }
+        
+        header a {
+            padding: 5px 15px;
+            background: rgb(70, 89, 65);
+            color: ivory;
+            text-decoration: none;
+            margin: 0px 10px;
+            border: 2px solid rgb(70, 89, 65);
+            border-radius: 15px;
+        }
+        
+        header a:hover {
+            background: ivory;
+            text-decoration: none;
+            color: rgb(70, 89, 65);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Working with Lists</h1> </header>
+    <div class="container">
+        <h2>Unorderd Lists</h2> 
+        <!-->(li>{list$})*7</!-->
+        <ul>
+            <li>list1</li>
+            <li>list2</li>
+            <li>list3</li>
+            <li>list4</li>
+            <li>list5</li>
+            <li>list6</li>
+            <li>list7</li>    
+        </ul>
+    </div>
+    <div class="container">
+        <h2>Ordered Lists</h2> 
+        <ol type = "I">
+            <li>list1</li>
+            <li>list2</li>
+            <li>list3</li>
+            <li>list4</li>
+            <li>list5</li>
+            <li>list6</li>
+            <li>list7</li>
+        </ol>
+    </div>
+    <div class="container">
+        <h2>Multi-level Lists</h2>
+        <li>list1</li>
+        <li>list2</li>
+        <li>list3
+            <ol type = "i">
+                <li>list1</li>
+                <li>list2</li>
+                <li>list3</li>
+                <li>list4</li>
+                <li>list5</li>
+                <li>list6</li>
+                <li>list7</li>
+            </ol>
+        </li>
+        <li>list4</li>
+        <li>list5</li>
+        <li>list6</li>
+        <li>list7</li>
+    </div>
+    <div class="container">
+        <h2>Description/Definition Lists</h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Hyper Text Markup Language</dd>
+        </dl>
+    </div>
+    <section class="container">
+        <h2>Styling Lists</h2> </section>
+</body>
+
+</html>
