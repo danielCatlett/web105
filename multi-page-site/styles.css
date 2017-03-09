@@ -1,0 +1,35 @@
+header
+{
+    background-color: #673AB7;
+    color: #FFFFFF;
+    text-align: center;
+    min-height: 142px;
+}
+
+a
+{
+    color: #FFFFFF;
+    background-color: #E040FB;
+    padding: 10px 20px;
+    margin: 5px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+body
+{
+    text-align: center;
+    color: #673AB7;
+    background: url(dolphin.jpg)
+}
+
+p
+{
+    color: #757575;
+}
+
+.container
+{
+    background: white;
+    min-width: 96px;
+}
