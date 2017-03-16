@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Table</title>
+    <style>
+        .container{
+            max-width: 1060px;
+            font-family: sans-serif;
+        }
+        nav{
+            text-align: center;
+        }
+        a
+        {
+            padding: 10px 20px;
+            background-color: darkblue;
+            border: 2px solid darkblue;
+            color: white;
+            border-radius: 25px;
+            text-decoration: none;
+            margin: 5px 25px;
+            font-size: 1.3em;
+            font-weight: 700;
+        }
+        h1
+        {
+            color: darkblue;
+        }
+        a:hover
+        {
+            color: darkblue;
+            background: white;
+        }
+        table
+        {
+            margin: 60px auto;
+            width: 80%;
+            border: 1px solid black;
+            font-size: 1.5em;
+        }
+        td, th
+        {
+            padding: 5px solid;
+            border: 1px solid green;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Basic Table</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="styled.html">Table Styling</a>
+            <a href="calendar.html">Calendar</a>
+        </nav>
+        
+        <table>
+            <tr>
+                <!-- th*4 -->
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+                <th>Column 4</th>
+            </tr>
+            <tr>
+                <th>Header</th>
+                <td colspan="2">data</td>
+                <td>data</td>
+            </tr>
+            <tr>
+                <th>Header</th>
+                <td rowspan="3">data</td>
+                <td>data</td>
+                <td>data</td>
+            </tr>
+            <tr>
+                <th>Header</th>
+                <td>data</td>
+                <td>data</td>
+            </tr>
+            <tr>
+                <th>Header</th>
+                <td>data</td>
+                <td>data</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
