@@ -6,13 +6,15 @@ darkgreen:#2b5726
 brown: #8a6047
 */
 
-body {
+body 
+{
     background: #13181E;
     color: #13181E;
     font-family: arial, helvetica, sans-serif;
 }
 
-.container {
+.container 
+{
     max-width: 1060px;
     padding: 15px;
     margin: 4px auto;
@@ -22,7 +24,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3 
+{
     color: #2b5726;
     text-align: center;
 }
@@ -32,32 +35,37 @@ img {
     height: auto;
 }
 
-.formatted{
+.formatted
+{
     padding: 10px;
     margin: 10px;
     border: 2px solid #8a6047;
     background: orange;
 }
 
-#boxsize img {
+#boxsize img 
+{
     padding: 5px;
     margin: 5px;
     border: 5px solid #8a6047;
     box-sizing: border-box;
 }
 
-#list1 {
+#list1 
+{
     text-align: left;
     width: 30%;
     margin: 5px auto;
 }
 nav li,
-#list2 li {
+#list2 li 
+{
     display: inline-block;
     list-style-type: none;
 }
 nav li a,
-#list2 li a {
+#list2 li a 
+
     padding: 5px;
     margin: 10px;
     background: #2b5726;
@@ -67,7 +75,8 @@ nav li a,
     line-height: 3;
 }
 
-.box {
+.box 
+{
     width: 100px;
     height: 100px;
     padding: 5px;
@@ -75,7 +84,17 @@ nav li a,
     background: #90be73;
 }
 
-.box2 {
+.box1
+{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin: 5px;
+    background: #90be73;
+}
+
+.box2 
+{
     width: 100px;
     height: 100px;
     padding: 5px;
@@ -84,11 +103,46 @@ nav li a,
     display: inline;
 }
 
-.box3 {
+.box3
+{
     width: 100px;
     height: 100px;
     padding: 5px;
     margin: 5px;
     background: #90be73;
     display: inline-block;
+}
+
+.box
+{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #8a6047;
+    background: orange;
+    box-sizing: border-box;
+}
+
+nav
+{
+    width: 200px;
+    border: 2px solid #13181E;
+    margin: 10px;
+    background: #90be73;
+    box-sizing: border-box;
+}
+
+.pretty li
+{
+    display: inline-block;
+    padding: 6px 12px;
+    background: #2b5726;
+    color: white;
+    list-style: none;
+    text-align: center;
+}
+
+.pretty a
+{
+    color: white;
+    text-decoration: none;
 }

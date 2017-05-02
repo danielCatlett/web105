@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+        }
+        .container
+        {
+            max-width: 1060px;
+            border: 2px solid black;
+            min-height: 500px;
+            border-radius: 10px;
+            margin: 10px auto;
+        }
+        
+        header
+        {
+            width: 100%;
+            min-height: 100px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        
+        header img
+        {
+            height: 100px;
+            width: 100px;
+            float: right;
+        }
+        
+        main
+        {
+            min-height: 350px;
+        }
+        
+        main img
+        {
+            height: 100px;
+            width: 175px;
+            margin: 5px 10px;
+            display: inline-block;
+        }
+        
+        footer
+        {
+            width: 100%;
+            border-top: 2px solid black;
+            min-height: 25px;
+            text-align: center;
+            padding: 1em;
+        }
+        
+        h1
+        {
+            padding-left: 2em;
+            padding-top; 5px;
+            float: left;
+        }
+        
+        nav
+        {
+            clear: both;
+            max-width: 500px;
+            margin: 10px auto;
+        }
+        
+        nav a
+        {
+            padding: 5px 10px;
+            background: lightgrey;
+            border: 2px solid black;
+        }
+        
+        .images
+        {
+            text-align: center;
+        }
+        
+        .text
+        {
+            max-width: 90%;
+            margin: 10px auto;
+            line-height: 1.5;
+            font-size: 1.1em;
+        }
+        
+        footer
+        {
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Site Title</h1>
+            <img src="image-1.png" alt="image">
+            <nav>
+                <a href="#">Page 1</a>
+                <a href="#">Page 2</a>
+                <a href="#">Page 3</a>
+            </nav>
+        </header>
+        <main>
+           <div class="container">
+               
+           </div>
+        </main>
+        <footer>
+            <a href="">link 1</a> |
+            <a href="">link 2</a> |
+            <a href="">link 3</a> 
+        </footer>
+    </div>
+</body>
+</html>
